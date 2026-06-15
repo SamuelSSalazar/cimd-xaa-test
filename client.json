@@ -1,0 +1,12 @@
+{
+  "client_id": "https://samuelssalazar.github.io/cimd-xaa-test/client.json",
+  "client_name": "CIMD XAA Runtime Test Client",
+  "client_uri": "https://samuelssalazar.github.io/cimd-xaa-test/",
+  "redirect_uris": ["https://samuelssalazar.github.io/cimd-xaa-test/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "application_type": "web",
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks_uri": "https://samuelssalazar.github.io/cimd-xaa-test/jwks.json"
+}
